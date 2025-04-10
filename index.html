@@ -81,7 +81,7 @@
 
         try {
           const res = await fetch(
-            `http://localhost:5000/api/search?q=${encodeURIComponent(query)}`
+            `https://fact-checker-gnewsapi.onrender.com/api/search?q=${encodeURIComponent(query)}`
           );
           const data = await res.json();
 
